@@ -20,10 +20,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="assets/img/weather-app.png">
-  <title>
-    Weather Web App
-  </title>
-  <!--     Fonts and icons     -->
+  <title>Bootcamp ESPOL: Weather</title>
+  <!-- Fonts and icons -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
   <!-- Nucleo Icons -->
   <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
@@ -39,9 +37,11 @@
 
 <body class="g-sidenav-show  bg-gray-200">
   <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+
     <!-- Navbar -->
     <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" data-scroll="true">
       <div class="container-fluid py-3 px-3 justify-content-around">
+
         <nav aria-label="breadcrumb">
           <h2 class="font-weight-bolder mb-0">Weather Web App</h2>
         </nav>
@@ -49,24 +49,20 @@
         <div class="mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
           <div class="ms-md-auto d-flex align-items-center">
             <div class="input-group input-group-outline">
-              
               <div class="dropdown">
                 <select id="dropdownMenuButton" class="btn bg-gradient-primary dropdown-toggl" name="select">
                   <option value="" selected disabled hidden>Seleccione una ciudad</option>
                   <!-- <option class="dropdown-item" value="guayaquil">Guayaquil</option> -->
-                  
                 </select>
               </div>
-
             </div>
           </div>
         </div> 
 
-
       </div>
     </nav>
-    
     <!-- End Navbar -->
+
     <div class="container-fluid py-4">
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
@@ -102,6 +98,7 @@
                         <h6 id="rainfall" class="text-golden mb-0"><!-- rainfall --></h6>
                       </div>
                     </div>
+
                   </div>
                 </div>
               </div>
@@ -162,6 +159,7 @@
           </div>
         </div>
       </div>
+
       <footer class="footer py-4  ">
         <div class="container-fluid">
           <div class="row align-items-center justify-content-lg-between">
@@ -196,6 +194,7 @@
       </footer>
     </div>
   </main>
+
   <!--   Core JS Files   -->
   <script src="assets/js/core/popper.min.js"></script>
   <script src="assets/js/core/bootstrap.min.js"></script>
@@ -210,11 +209,12 @@
       Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
     }
   </script>
+
   <!-- Github buttons -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="assets/js/material-dashboard.min.js?v=3.0.4"></script>
- 
+
   <script src="assets/js/data.js" type="module"></script>
   <script src="assets/js/weather.js" type="module"></script>
 </body>
